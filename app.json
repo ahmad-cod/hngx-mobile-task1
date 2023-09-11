@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MySlackProfileApp",
+    "name": "great_aroyehun profile",
     "slug": "MySlackProfileApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +18,20 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.greataroyehun.MySlackProfileApp",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#ddfedb"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3fd272fb-2cc4-4895-807a-5b2c6cbbeeb6"
+      }
     }
   }
 }
